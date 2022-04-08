@@ -1,4 +1,4 @@
-package com.github.arnaudelub.flutter_fullpdfview_example;
+package com.github.tranvanphay.flutter_fullpdfview_fork_example;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity;

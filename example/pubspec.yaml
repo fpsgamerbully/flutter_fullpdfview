@@ -1,9 +1,9 @@
 name: flutter_fullpdfview_example
-description: Demonstrates how to use the flutter_fullpdfview plugin.
+description: Demonstrates how to use the flutter_fullpdfview_fork plugin.
 publish_to: 'none'
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -16,8 +16,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  path_provider: ^1.6.1
-  flutter_fullpdfview:
+  path_provider: ^2.0.9
+  flutter_fullpdfview_fork:
     path: ../
 
 # For information on the generic Dart part of this file, see the

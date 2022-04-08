@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:flutter_fullpdfview/flutter_fullpdfview.dart';
+import 'package:flutter_fullpdfview_fork/flutter_fullpdfview_fork.dart';
 
 void main() => runApp(MyApp());
 
@@ -110,7 +110,7 @@ class _MyAppState extends State<MyApp> {
 
 class PDFScreen extends StatefulWidget {
   final String path;
-  PDFScreen({Key key, this.path}) : super(key: key);
+  PDFScreen({Key? key, required this.path}) : super(key: key);
 
   _PDFScreenState createState() => _PDFScreenState();
 }
@@ -123,7 +123,7 @@ class _PDFScreenState extends State<PDFScreen> {
   bool isActive = true;
   double scale = 1.0;
   double top = 200.0;
-  double initialLocalFocalPoint;
+  double initialLocalFocalPoint = 0;
   @override
   Widget build(BuildContext context) {
     return OrientationBuilder(
@@ -203,12 +203,12 @@ class _PDFScreenState extends State<PDFScreen> {
                 return FloatingActionButton.extended(
                   label: Text("Go to ${pages ~/ 2}"),
                   onPressed: () async {
-                    print(await snapshot.data.getZoom());
-                    print(await snapshot.data.getPageWidth(1));
-                    print(await snapshot.data.getPageHeight(1));
+                    print(await snapshot.data?.getZoom());
+                    print(await snapshot.data?.getPageWidth(1));
+                    print(await snapshot.data?.getPageHeight(1));
                     //await snapshot.data.setPage(pages ~/ 2);
-                    await snapshot.data.resetZoom(1);
-                    await snapshot.data.setZoom(3.0);
+                    await snapshot.data?.resetZoom(1);
+                    await snapshot.data?.setZoom(3.0);
                     //print(await snapshot.data.getScreenWidth());
                   },
                 );
