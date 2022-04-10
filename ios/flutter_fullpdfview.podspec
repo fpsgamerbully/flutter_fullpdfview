@@ -3,7 +3,7 @@
 # Run `pod lib lint flutter_fullpdfview.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_fullpdfview'
+  s.name             = 'flutter_fullpdfview_fork'
   s.version          = '0.0.1'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC

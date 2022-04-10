@@ -1,6 +1,6 @@
 name: flutter_fullpdfview_fork
 description: A Pdf Viewer for Android including fit policy. Based on flutter_pdfview_fork from phaytran.
-version: 1.0.0
+version: 1.0.3
 verified publisher: phaytran.tech
 homepage: https://github.com/tranvanphay/flutter_fullpdfview
 

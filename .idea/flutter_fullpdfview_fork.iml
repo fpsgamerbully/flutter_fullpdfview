@@ -4,13 +4,13 @@
     <facet type="android" name="Android">
       <configuration>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
-        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/../../flutter_fullpdfview/gen" />
-        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/../../flutter_fullpdfview/gen" />
-        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/../../flutter_fullpdfview/AndroidManifest.xml" />
-        <option name="RES_FOLDER_RELATIVE_PATH" value="/../../flutter_fullpdfview/res" />
-        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../../flutter_fullpdfview/assets" />
-        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/../../flutter_fullpdfview/libs" />
-        <option name="PROGUARD_LOGS_FOLDER_RELATIVE_PATH" value="/../../flutter_fullpdfview/proguard_logs" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/../../flutter_fullpdfview_fork/gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/../../flutter_fullpdfview_fork/gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/../../flutter_fullpdfview_fork/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/../../flutter_fullpdfview_fork/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../../flutter_fullpdfview_fork/assets" />
+        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/../../flutter_fullpdfview_fork/libs" />
+        <option name="PROGUARD_LOGS_FOLDER_RELATIVE_PATH" value="/../../flutter_fullpdfview_fork/proguard_logs" />
       </configuration>
     </facet>
   </component>

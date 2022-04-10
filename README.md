@@ -1,6 +1,6 @@
 # flutter_fullpdfview_fork
 
-Native PDF View for iOS and Android
+Native PDF View for iOS and Android fork from https://github.com/arnaudelub/flutter_fullpdfview
 
 # Use this package as a library
 

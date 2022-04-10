@@ -1,9 +1,9 @@
 // import 'package:flutter/services.dart';
 // import 'package:flutter_test/flutter_test.dart';
-// import 'package:flutter_fullpdfview/flutter_fullpdfview.dart';
+// import 'package:flutter_fullpdfview_fork/flutter_fullpdfview_fork.dart';
 
 // void main() {
-//   const MethodChannel channel = MethodChannel('flutter_fullpdfview');
+//   const MethodChannel channel = MethodChannel('flutter_fullpdfview_fork');
 
 //   TestWidgetsFlutterBinding.ensureInitialized();
 

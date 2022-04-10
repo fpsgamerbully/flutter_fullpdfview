@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/flutter_fullpdfview.iml" filepath="$PROJECT_DIR$/.idea/flutter_fullpdfview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flutter_fullpdfview_fork.iml" filepath="$PROJECT_DIR$/.idea/flutter_fullpdfview_fork.iml" />
     </modules>
   </component>
 </project>
