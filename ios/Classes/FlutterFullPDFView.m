@@ -182,13 +182,8 @@
                  _pdfView.scaleFactor = scale;
 
 
-                if([backgroundColor isEqual:  @"black"]) {
-                    _pdfView.backgroundColor =[UIColor blackColor ];
-                }else if([backgroundColor isEqual:  @"white"]){
-                    _pdfView.backgroundColor = [UIColor colorWithWhite:0.95 alpha:1];
-                }else {
-                    _pdfView.backgroundColor = [UIColor blackColor];
-                }
+            
+                _pdfView.backgroundColor = [UIColor clearColor];
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [weakSelf handleRenderCompleted:[NSNumber numberWithUnsignedLong: [document pageCount]]];
                 });
